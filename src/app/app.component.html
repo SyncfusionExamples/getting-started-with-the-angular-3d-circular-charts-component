@@ -1,0 +1,13 @@
+<div style="padding-top: 30px;">
+  <ejs-circularchart3d tilt="-45" enableRotation="true"
+  title="Berlin 2023 Special Olympics Gold Medals" 
+  [tooltip]="tooltip" [legendSettings]="legendSettings">
+    <e-circularchart3d-series-collection>
+      <e-circularchart3d-series [dataSource]='chartData'
+      xName='country' yName='medals' [dataLabel]="dataLabel"
+      radius="70%" innerRadius="40%">
+    </e-circularchart3d-series>
+      </e-circularchart3d-series-collection>
+  </ejs-circularchart3d>
+</div>
+
