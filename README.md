@@ -1,4 +1,6 @@
 # Getting Started with the Angular 3D Circular Charts Component
+
+## Repository Description
 A quick-start project that contains code to create and configure the Syncfusion Angular 3D Circular Charts component. This project also contains code to configure a few of the control’s basic features, like enabling data labels, tooltips, and legends. 
  
 Refer to the following documentation to learn about the Angular 3D Circular Charts component:
