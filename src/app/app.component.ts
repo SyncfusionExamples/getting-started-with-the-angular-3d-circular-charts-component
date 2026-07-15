@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CircularChart3DModule, CircularChartDataLabel3DService, 
   CircularChartTooltip3DService, PieSeries3DService,
 CircularChartLegend3DService} from '@syncfusion/ej2-angular-charts';
@@ -7,7 +6,7 @@ CircularChartLegend3DService} from '@syncfusion/ej2-angular-charts';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CircularChart3DModule],
+  imports: [CircularChart3DModule],
   providers: [CircularChartDataLabel3DService, CircularChartTooltip3DService,
     PieSeries3DService, CircularChartLegend3DService],
   templateUrl: './app.component.html',
